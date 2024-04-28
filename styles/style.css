@@ -1,0 +1,41 @@
+body {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    background-image: radial-gradient(#FD6E6A 10%, #FFC600 100%);
+    text-align: center;
+}
+
+#calculator_borders {
+    display: inline-block;
+    background-image: linear-gradient(0deg, #FFE985 10%, #FA742B 100%);
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.column {
+    display: flex;
+
+}
+
+.numbers {
+    width: 100%;
+}
+
+input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15pt;
+    padding: 20px;
+    border-radius: 30px;
+    background-image: radial-gradient(#e4dc6c 5%, #FFC600 95%);
+    margin: 5px;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20pt;
+}
+
+.format_buttons {
+    width: 100%;
+
+}
